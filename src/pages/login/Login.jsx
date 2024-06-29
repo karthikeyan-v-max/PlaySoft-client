@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Login.css"
 import newRequest from '../../utils/newRequest'
 import { useNavigate } from "react-router-dom";
-import upload from '../../../../../Backend/api/utils/upload';
+
 const Login = () => {
   const navigate = useNavigate()
   const [username , setUsername] = useState('')
