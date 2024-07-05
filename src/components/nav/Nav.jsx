@@ -14,8 +14,7 @@ const Nav = () => {
             localStorage.setItem("CurrentUser",null)
             navigate("/")
         }catch(err){
-            console.log(err);
-            
+            console.log(err); 
         }
 
     }

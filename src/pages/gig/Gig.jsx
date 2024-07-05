@@ -55,8 +55,8 @@ const Gig = () => {
           </div>}
           <Slider slidesToShow={1} arrowScroll={1} className='slider-1-gig'>
             {data.images.map((img)=>(
-              <img src={img} alt="" key={img}/>
-            ))}
+                  <img src={img} alt="gig images" key={img}/>
+              ))}
           </Slider>
           <h2>About This Gig</h2>
           <p>
