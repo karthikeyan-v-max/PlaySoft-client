@@ -1,8 +1,8 @@
 import React from 'react'
 import "./reviews.css"
-import { Review } from '../review/Review'
+import { Review } from '../review/Review.jsx'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import newRequest from '../../utils/newRequest';
+import newRequest from '../../utils/newRequest.js';
 
 export const Reviews = ({gigId}) => {
   const currentUser = JSON.parse(localStorage.getItem("CurrentUser"))

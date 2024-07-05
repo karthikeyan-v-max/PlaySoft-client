@@ -1,8 +1,8 @@
 import React, { useEffect, useReducer, useRef, useState } from 'react'
 import "./Gigs.css"
-import GigCart from "../../components/gigcart/GigCart"
+import GigCart from "../../components/gigcart/GigCart.jsx"
 import {useQuery} from "@tanstack/react-query";
-import newRequest from '../../utils/newRequest';
+import newRequest from '../../utils/newRequest.js';
 import { useLocation } from 'react-router-dom';
 
 const Gigs = () => {

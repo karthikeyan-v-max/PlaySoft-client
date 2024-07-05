@@ -3,7 +3,7 @@ import "./review.css"
 import { useMutation, useQuery } from '@tanstack/react-query';
 
 import noavatar from "../../images/noavatar.png"
-import newRequest from '../../utils/newRequest';
+import newRequest from '../../utils/newRequest.js';
 
 export const Review = ({review}) => {
 

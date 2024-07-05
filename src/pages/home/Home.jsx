@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Home.css"
-import Featured from '../../components/featured/Featured'
-import TrustedBy from '../../components/trustedBy/TrustedBy'
-import Slide from '../../components/slide/Slide'
-import { cards, projects } from '../../data'
-import CatCard from '../../components/catCard/CatCard'
-import ProjectCard from '../../components/productCard/ProjectsCard'
-import ProductSlide from "../../components/slideforproduct/ProductSlide"
+import Featured from '../../components/featured/Featured.jsx'
+import TrustedBy from '../../components/trustedBy/TrustedBy.jsx'
+import Slide from '../../components/slide/Slide.jsx'
+import { cards, projects } from '../../data.js'
+import CatCard from '../../components/catCard/CatCard.jsx'
+import ProjectCard from '../../components/productCard/ProjectsCard.jsx'
+import ProductSlide from "../../components/slideforproduct/ProductSlide.jsx"
 const Home = () => {
   return (
     <div className='home'>

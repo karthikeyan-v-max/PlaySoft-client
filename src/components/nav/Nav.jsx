@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Nav.css"
 import { Link,useLocation, useNavigate} from 'react-router-dom'
-import newRequest from '../../utils/newRequest'
+import newRequest from '../../utils/newRequest.js'
 import noavatar from "../../images/noavatar.png"
 const Nav = () => {
     const [active , setActive] = useState(false)

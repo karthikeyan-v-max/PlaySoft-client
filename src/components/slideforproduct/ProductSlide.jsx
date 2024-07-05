@@ -1,7 +1,7 @@
 import React, { Children } from 'react'
 import "./productslide.css"
-import { projects } from '../../data'
-import ProjectCard from '../productCard/ProjectsCard'
+import { projects } from '../../data.js'
+import ProjectCard from '../productCard/ProjectsCard.jsx'
 
 
 

@@ -1,8 +1,8 @@
 import React, { Children } from 'react'
 import "./Slide.css"
 
-import { cards } from '../../data'
-import CatCard from '../../components/catCard/CatCard'
+import { cards } from '../../data.js'
+import CatCard from '../../components/catCard/CatCard.jsx'
 
 
 

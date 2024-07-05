@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./CatCard.css"
-import { cards } from '../../data';
 
 const CatCard = ({item}) => {
   return (

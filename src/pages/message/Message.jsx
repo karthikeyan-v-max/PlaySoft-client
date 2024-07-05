@@ -2,7 +2,7 @@ import React from "react";
 import { Link, json, useParams } from "react-router-dom";
 import "./Message.css"
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import newRequest from "../../utils/newRequest";
+import newRequest from "../../utils/newRequest.js";
 
 const Message = () => {
   const currentUser = JSON.parse(localStorage.getItem("CurrentUser"))

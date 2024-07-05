@@ -2,7 +2,7 @@ import React from 'react'
 import "./gigcart.css"
 import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query';
-import newRequest from "../../utils/newRequest"
+import newRequest from "../../utils/newRequest.js"
 import noavatar from "../../images/noavatar.png"
 const GigCart = ({item}) => {
     const {isLoading , error , data } = useQuery({

@@ -1,29 +1,29 @@
 import { useState } from 'react'
-import Nav from './components/nav/Nav'
+import Nav from './components/nav/Nav.jsx'
 import "./app.css"; 
 import {
   createBrowserRouter,
   RouterProvider,
   Outlet,
 } from "react-router-dom"
-import Home from './pages/home/Home';
-import Footer from './components/footer/Footer';
-import Gigs from './pages/gigs/Gigs';
-import Gig from "./pages/gig/Gig";
-import Add from "./pages/add/Add";
-import Orders from "./pages/orders/Orders";
-import MyGigs from "./pages/myGigs/MyGigs";
-import Message from "./pages/message/Message";
-import Messages from "./pages/messages/Messages";
-import Login from './pages/login/Login';
-import Register from './pages/register/Register';
+import Home from './pages/home/Home.jsx';
+import Footer from './components/footer/Footer.jsx';
+import Gigs from './pages/gigs/Gigs.jsx';
+import Gig from "./pages/gig/Gig.jsx";
+import Add from "./pages/add/Add.jsx";
+import Orders from "./pages/orders/Orders.jsx";
+import MyGigs from "./pages/myGigs/MyGigs.jsx";
+import Message from "./pages/message/Message.jsx";
+import Messages from "./pages/messages/Messages.jsx";
+import Login from './pages/login/Login.jsx';
+import Register from './pages/register/Register.jsx';
 import {
   QueryClient,
   QueryClientProvider,
   useQuery,
 } from '@tanstack/react-query'
-import Pay from './pages/Pay/Pay';
-import Success from './pages/success/Success';
+import Pay from './pages/Pay/Pay.jsx';
+import Success from './pages/success/Success.jsx';
 
 function App() {
 

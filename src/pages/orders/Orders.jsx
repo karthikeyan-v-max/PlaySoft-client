@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Orders.css"
 import { useQuery } from '@tanstack/react-query'
-import newRequest from '../../utils/newRequest'
+import newRequest from '../../utils/newRequest.js'
 import messageImg from "../../images/message.png"
 import { useNavigate } from 'react-router-dom'
 

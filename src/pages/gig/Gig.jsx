@@ -2,10 +2,10 @@ import { Slider } from 'infinite-react-carousel'
 import React from 'react'
 import './Gig.css'
 import { Link, useParams } from 'react-router-dom'
-import newRequest from '../../utils/newRequest'
+import newRequest from '../../utils/newRequest.js'
 import { useQuery } from '@tanstack/react-query'
 import noavatar from "../../images/noavatar.png"
-import { Reviews } from '../../components/reviews/Reviews'
+import { Reviews } from '../../components/reviews/Reviews.jsx'
 const Gig = () => {
 
   const {id} = useParams()
